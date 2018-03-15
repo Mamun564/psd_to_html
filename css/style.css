@@ -1,0 +1,220 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+li {
+    color: #8E44AD;
+    background: #BB8FCE;
+    border: 2px sloid #E8DAEF;
+
+
+    background: #5B2C6F;
+    color: #884EA0;
+}
+
+body {
+    width: 100vw;
+    height: auto;
+    background: #FDFEFE;
+}
+
+/*navigation bar*/
+
+.topnav {
+    margin: 0 auto;
+    width: 1310px;
+    margin-top: 20px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    background: #BB8FCE;
+}
+
+/* Style the links inside the navigation bar */
+
+.topnav a {
+    float: right;
+    display: block;
+    color: #8E44AD;
+    text-align: center;
+    padding: 30px 35px;
+    text-decoration: none;
+    font-size: 20pt;
+    margin-left: 30px;
+    transition: .8s;
+}
+
+/* Change the color of links on hover */
+
+.topnav a:hover {
+    color: #5B2C6F;
+    transition: .8s;
+}
+
+/* Add an active class to highlight the current page */
+
+.topnav h1 {
+    margin-top: 5px;
+    margin-left: 10px;
+    color: #8E44AD;
+    float: left;
+    padding: 20px 0px;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+
+.topnav .icon {
+    display: none;
+}
+
+/*navigation bar end*/
+
+.banner {
+    margin: 0 auto;
+    width: 1310px;
+}
+
+.banner .text {
+    width: 40%;
+    float: left;
+    padding-top: 25px;
+}
+
+.banner .text h1 {
+    font-weight: lighter;
+    padding: 10px;
+    color: #8E44AD;
+    background: #E8DAEF;
+}
+
+.banner .text .tag {
+    text-align: justify;
+    padding: 10px;
+    letter-spacing: 1px;
+    font-size: 14pt;
+    color: #BB8FCE;
+}
+
+.banner .text p {
+    text-align: justify;
+    padding: 10px;
+    letter-spacing: 0;
+    color: #8E44AD;
+}
+
+.banner .image {
+    padding-bottom: 100px;
+    width: auto;
+    float: right;
+}
+
+.banner .image img {
+    width: 700px;
+}
+
+.wrapper {
+    clear: both;
+    margin: 0 auto;
+    width: 1310px;
+    height: auto;
+}
+
+.wrapper h1 {
+    text-align: center;
+    padding: 5px;
+    color: #8E44AD;
+    background: #E8DAEF;
+    margin-bottom: 10px;
+}
+
+.wrapper p {
+    text-align: center;
+    padding: 5px;
+    color: #BB8FCE;
+    padding-top: 10px;
+}
+
+.wrapper .element_top div,
+.wrapper .element_bottom div {
+    width: 300px;
+    float: left;
+    text-align: justify;
+    padding: 62px 62px 0px 62px;
+    ;
+}
+
+.wrapper .element_top div p,
+.wrapper .element_bottom div p {
+    text-align: justify;
+    line-height: 18pt;
+    padding-top: 15px;
+}
+
+.wrapper .element_top div h2,
+.wrapper .element_bottom div h2 {
+    text-align: justify;
+    line-height: 18pt;
+    color: #8E44AD;
+    padding: 15px 0px 10px 0px;
+    border-bottom: 1px solid #E8DAEF;
+}
+
+.wrapper .element_bottom div p {
+    margin-bottom: 100px;
+}
+
+footer {
+    clear: both;
+    width: 1310px;
+    height: auto;
+    background: #5B2C6F;
+    margin: 0 auto;
+    padding: 40px 0px 40px 0px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+footer h1 {
+    color: #E8DAEF;
+    padding-bottom: 10px;
+}
+
+footer p {
+    color: #BB8FCE;
+    padding-bottom: 40px;
+}
+
+footer input {
+    padding: 10px;
+    font-size: 14pt;
+    border: none;
+    border-radius: 5px;
+    width: 500px;
+}
+
+footer button {
+    border: none;
+    background: #884EA0;
+    padding: 10px;
+    font-size: 14pt;
+    width: 150px;
+    outline: none;
+    margin-bottom: 50px;
+    cursor: pointer;
+    transition: .5s;
+    color: white;
+    border-radius: 5px;
+    transition: .1s;
+
+}
+
+footer button:hover {
+    background: #5B2C6F;
+    border: .5px solid white;
+    transition: .1s;
+}
+
+footer address {
+    color: #E8DAEF;
+}
